@@ -4,7 +4,7 @@ from flask_app.models import dojo
 
 class Ninja:
 
-    def __init__(self, ):
+    def __init__(self, data):
         self.id = data['id']
         self.first_name = data['first_name']
         self.last_name = data['last_name']
