@@ -3,7 +3,7 @@ from flask_app import app
 from flask_app.models.dojo import Dojo
 
 
-@app.route('/')
+@app.route('')
 def index():
     return redirect('/dojos')
 
